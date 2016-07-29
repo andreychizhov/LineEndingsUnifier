@@ -21,9 +21,9 @@ namespace JakubBielawa.LineEndingsUnifier
             Macintosh
         }
 
-        private const string LineEndingsPattern = "([^\r]|^)\n";
+        private const string LineEndingsPattern = "(?<!\r)\n";
 
-        private const string WindowsLineEndings = "$1\r\n";
+        private const string WindowsLineEndings = "\r\n";
 
         private const string LinuxLineEndings = "\n";
 
