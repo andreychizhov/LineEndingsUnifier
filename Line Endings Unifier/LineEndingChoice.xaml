@@ -8,8 +8,8 @@
             <Grid>
                 <StackPanel Orientation="Vertical">
                     <RadioButton Name="Windows_RadioButton" Content="Windows (CR LF)" Checked="RadioButton_Checked" Margin="10,10,0,0" IsChecked="True"/>
-                    <RadioButton Name="Linux_RadioButton" Content="Linux (LF)" Checked="RadioButton_Checked" Margin="10,5,0,0"/>
-                    <RadioButton Name="Macintosh_RadioButton" Content="Macintosh (CR)" Checked="RadioButton_Checked" Margin="10,5,0,0"/>
+                    <RadioButton Name="Linux_RadioButton" Content="Linux (LF)" Checked="RadioButton_Checked" Margin="10,5,0,0" IsEnabled="False"/>
+                    <RadioButton Name="Macintosh_RadioButton" Content="Macintosh (CR)" Checked="RadioButton_Checked" Margin="10,5,0,0" IsEnabled="False"/>
                 </StackPanel>
             </Grid>
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">

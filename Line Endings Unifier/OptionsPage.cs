@@ -11,7 +11,7 @@ namespace JakubBielawa.LineEndingsUnifier
     {
         private LineEndingsChanger.LineEndingsList defaultLineEnding = LineEndingsChanger.LineEndingsList.Windows;
         private bool forceDefaultLineEndingOnSave = false;
-        private string supportedFileFormats = ".cpp; .c; .h; .hpp; .cs; .js; .vb; .txt";
+        private string supportedFileFormats = ".cs; .csproj; .txt";
         private bool saveFilesAfterUnifying = false;
         private bool writeReport = false;
         private bool unifyOnlyOpenFiles = false;
